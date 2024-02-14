@@ -25,7 +25,7 @@ def process_json_to_csv(json_file_path, csv_file_path):
     df.to_csv(csv_file_path, index=False)
 
 # Define file paths
-json_file_path = 'FreebaseQA-train.json'  # Update this path
+json_file_path = 'data_preparation/freebase_sample_train.json'  # Update this path
 csv_file_path = 'data/freebase_qa.csv'  # Update this path
 
 # Call the function
