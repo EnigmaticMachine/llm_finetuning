@@ -1,3 +1,6 @@
+# WiP
+
+
 # Script Analysis and Explanation
 
 This script performs several key functions related to data processing, visualization, model configuration, fine-tuning, and potentially prediction using Ludwig, a toolbox that simplifies deep learning models and data pipelines. Below is a detailed breakdown of its components.
@@ -27,7 +30,9 @@ A function `plot_sequence_lengths` is defined to calculate and plot the distribu
 
 pythonCopy code
 
-`def plot_sequence_lengths(df):     # Code for plotting`
+```def plot_sequence_lengths(df):
+# Code for plotting
+```
 
 ## Model Configuration
 
@@ -47,7 +52,9 @@ Using the `LudwigModel` class with the provided configuration and the loaded dat
 
 pythonCopy code
 
-`model = LudwigModel(config, logging_level=logging.INFO) # Training code`
+```
+model = LudwigModel(config, logging_level=logging.INFO) # Training code
+```
 
 ## Model Saving and Prediction
 
@@ -55,7 +62,10 @@ After training, the model is saved for future use. Although the script includes 
 
 pythonCopy code
 
-`model.save("results") # Prediction code (commented)`
+```
+model.save("results")
+# Prediction code (commented)
+```
 
 ## Conclusion
 
